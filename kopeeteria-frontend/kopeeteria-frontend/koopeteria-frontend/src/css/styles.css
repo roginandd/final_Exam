@@ -1,0 +1,200 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family:  'Times New Roman', Times, serif;
+}
+
+.header {
+  background-color: black;
+  padding: 10px;
+  text-align: left;
+}
+
+.header-img {
+  max-width: 300px;
+}
+
+.marquee {
+  background-color: #02075D;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.banner {
+  width: 30%;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.order-section {
+  width: 65%;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.order-list table {
+  width: 80%;
+  margin-top: 25px;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #bdbdbd;  
+}
+
+.th-2{
+  background-color: #00008B;
+    color: white; 
+    font-size: 15px;
+}
+.order-list th, td {
+  border: 1.5px solid white;
+  padding: 6px;
+}
+
+.order-list .totals {
+  margin-top: 20px;
+  
+}
+
+.discounted-bill{
+    background-color: #d8ebfa;
+}
+
+.order-list-button{
+  background: none;
+  border: none;
+  color: #0400ff; /* Link color */
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0; /* No extra padding, looks like text */
+  
+}
+
+.order-list-button-2{
+  background: none;
+  border: none;
+  color: #0400ff; /* Link color */
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0; /* No extra padding, looks like text */
+  background-color: #d8ebfa; /* Light blue background */
+}
+
+.button-separator {
+  margin: 0 5px; /* Adjust this value for more or less space */
+  color: #000; /* Optional: to style the separator */
+}
+
+.editing {
+  background-color: #d8ebfa; /* Light blue background */
+}
+
+
+.input-list table{
+  width: 80%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #bdbdbd;  
+  
+}
+
+  .input-list th, td{
+    border: 1.5px solid white;
+    padding: 6px;
+  }
+
+  .input-list th {
+    background-color: #00008B;
+    color: white; 
+    font-size: 15px;
+  }
+
+  .input-list td{
+    background-color: #d8ebfa;
+  }
+
+  .button-radial{
+    border-radius: 50px;
+    padding: 8px 13px 8px 13px;
+    color: white;
+    background-color: #02075D;
+    
+  }
+
+  .footer-class {
+    background-color: #2f2e2e; /* Light background color */
+    margin-top: auto;
+    position: relative; /* Fixed position to stick at the bottom */
+    bottom: 0; /* Position it at the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    text-align: center; /* Center the text */
+}
+
+  .footer-text{
+    color: rgb(131, 131, 131);
+    text-align: 'center';
+    font-size: 10px;
+  }
+
+ .content{
+  margin-left: 10em;
+ }
+
+ .alert {
+  color: white; /* White text */
+  text-align: center;
+  font-size: 13px;
+  padding: 3px;
+
+}
+
+.alert-close {
+  background: white; /* Transparent background */
+  border-color: gray;
+  color: black; /* White text */
+  font-size: 12px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  padding: 3 3 0 3; /* No padding */
+  margin-left: 5px;
+}
+
+.alert.success {
+  background-color: #4CAF50; /* Green background for success */
+  color: white; /* White text */
+}
+
+.alert.error {
+  background-color: #e80000; /* Red-orange background for error */
+  color: white; /* White text */
+}
+
+
+.hyper-link {
+  color: navy; 
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.even-row {
+  background-color: #d8ebfa; /* Light grey for even rows */
+}
+
+.odd-row {
+  background-color: transparent; /* No background for odd rows */
+}   
